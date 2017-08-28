@@ -1,0 +1,28 @@
+.streaming {
+  background-color: green;
+}
+
+.not-streaming {
+  background-color: red;
+}
+
+.avatar {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+table {
+  width: 75%;
+
+}
+
+tr {
+
+}
+
+th {
+  height: 2%;
+  padding-left: 2%;
+  text-align: center;
+}
