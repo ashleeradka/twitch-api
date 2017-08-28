@@ -1,28 +1,62 @@
+body {
+  background-color: rgba(197, 194, 198, .3);
+}
+
 .streaming {
-  background-color: green;
+  background-color: rgba(103, 191, 93, .6);
 }
 
 .not-streaming {
-  background-color: red;
+  background-color: rgb(186, 184, 184);
 }
 
 .avatar {
-  height: 36px;
-  width: 36px;
+  height: 46px;
+  width: 46px;
   border-radius: 50%;
 }
 
+.table {
+  padding: 5%;
+}
+
+body > div > table > tbody > tr:nth-child(1) {
+  background-color: rgb(74, 52, 125);
+  color: white;
+}
+
 table {
-  width: 75%;
+  width: 45%;
+  margin: auto;
+  padding: 5%;
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  height: 2%;
+  padding: 2%;
+  text-align: center;
 
 }
 
 tr {
-
+  border: 2px solid black;
 }
 
-th {
-  height: 2%;
-  padding-left: 2%;
-  text-align: center;
+tr:hover.not-streaming {
+  background-color: rgb(209, 205, 204);
+  color: rgb(155, 13, 13);
+}
+
+tr:hover.streaming {
+  background-color: rgb(103, 191, 93);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
